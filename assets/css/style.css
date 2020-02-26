@@ -1,0 +1,19 @@
+/*Changed default Navbar Styles*/
+
+.navbar-custom {
+    background-color: #000000;
+}
+
+.navbar-custom .navbar-brand {
+    color:#fff;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+color: #fff;
+background-color: green;
+}
+
