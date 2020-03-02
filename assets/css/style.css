@@ -1,3 +1,14 @@
+
+@media (min-width: 992px) { 
+    body {
+        max-width: 80%;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
+
+
 /*Changed default Navbar Styles*/
 
 .navbar-custom {
@@ -23,6 +34,8 @@
     height: 40vh;
 }
 
+/* Welcome style div */
+
 #shamrock {
     display: block;
     margin-left: auto;
@@ -31,11 +44,31 @@
     height: 50%;
 }
 
-.h2-custom, .h6-custom {
+.h2-custom {
     margin-top: 20px;
     margin-bottom: 15px;
     font-family: Montserrat, sans-serif;
     letter-spacing: 3px;
+}
+
+.h6-custom {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 3px;
+}
+
+.images-div{
+    padding: 0px;
+}
+
+.places-style {
+    background-color: #000;
+    color: #fff;
+}
+
+.p-style{
+    text-align: justify;
 }
 
 
