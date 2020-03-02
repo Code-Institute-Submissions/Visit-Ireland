@@ -12,11 +12,25 @@
     color:#fff;
 }
 
-
 .navbar-custom .navbar-nav .nav-link:hover {
-color: #fff;
-background-color: green;
+    color: #fff;
+    background-color: green;
 }
+
+/* Styled carousel images */
+
+.carousel-images {
+    height: 40vh;
+}
+
+#shamrock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 50%;
+}
+
 
 
 
