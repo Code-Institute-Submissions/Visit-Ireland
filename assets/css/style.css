@@ -31,6 +31,14 @@
     height: 50%;
 }
 
+.h2-custom, .h6-custom {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 3px;
+}
+
+
 
 
 
