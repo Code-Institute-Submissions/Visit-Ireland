@@ -4,7 +4,7 @@ var placeNames = ['See at Aillwee', 'Star Wars', 'Cliffs of Moher']; // array of
 
 var textContent = [`Flying Displays at our Bird of Prey Centre. Visit our Farm Shop on-site and see where we make our very own Award Winning Gouda style Cheese. A 35-minute guided cave tour. A private 1-hour long walk through our Hazel woodland with an experienced falconer to learn the art of falconry`,
                     `lwts see more of this textlwts see more of this textlwts see more of this text lwts see more of this textlwts see more of this textlwts see more of this text lwts see more of this textlwts see more of this textlwts see more of this textlwts see more of this textlwts see more of extlwts see more of this textlwts see more of `,
-                    `if only the fffffffffff fgga gagegqg qgqqqg ggqhqh qt444 tyyyy 3tqtqt qt  qtt tqtq  tqtqt  qtyq yqt tq tqt qt qtqyher  tthhr geq e qgqgrgq  qrg qeg gqgqgqg  qg gq ggge  eghes h egew gw werr ger egwrg wgwegw wgewgg wg we ewrgrgr rgwrg erg ergggw erw gwgrwg wegw wg wgwg e gweerw wrgrwwe gwrggr werggwe `];
+                    `if only the fffffffffff fgga qgqqqg ggqhqh qt444 tyyyy 3tqtqt qt  qtt tqtq  tqtqt  qtyq yqt tq tqt qt qtqyher  tthhr geq e qgqgrgq  qrg qeg gqgqgqg  qg gq ggge  eghes h egew gw werr ger egwrg wgwegw wgewgg wg we ewrgrgr rgwrg erg ergggw erw gwgrwg wegw wg wgwg e gweerw wrgrwwe gwrggr werggwe `];
    
 
 var index = 0; //decalred the variable 0
