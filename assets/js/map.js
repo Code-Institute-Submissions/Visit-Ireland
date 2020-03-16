@@ -4,6 +4,7 @@ var map, places, infoWindow;
       var countryRestrict = {'country': 'ie'};
       var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
       var hostnameRegexp = new RegExp('^https?://.+?/');
+      var type = "";
 
       var countries = {
          'ie': {
@@ -37,12 +38,29 @@ var map, places, infoWindow;
         places = new google.maps.places.PlacesService(map);
 
         autocomplete.addListener('place_changed', onPlaceChanged);
-
-        // Add a DOM event listener to react when the user selects a country.
-        document.getElementById('country').addEventListener(
-            'change', setAutocompleteCountry);
       }
 
+      document.getElementById("restraunt").addEventListener("click", checkRestraunt);
+      document.getElementById("bars").addEventListener("click", checkBars);
+      document.getElementById("hotels").addEventListener("click", checkHotels);
+
+      
+      function checkRestraunt(){
+        clearResults();
+        clearMarkers();  
+        type = "restaurant";
+                    
+      }
+      
+      function checkBars(){
+        type = "bar";
+      }
+      
+      function checkHotels(){
+        type = "lodging";
+      }
+
+    
       // When the user selects a city, get the place details for the city and
       // zoom the map in on the city.
       function onPlaceChanged() {
@@ -50,17 +68,17 @@ var map, places, infoWindow;
         if (place.geometry) {
           map.panTo(place.geometry.location);
           map.setZoom(15);
-          search();
+          search(type);
         } else {
           document.getElementById('autocomplete').placeholder = 'Enter a city';
         }
       }
-
+       
       // Search for hotels in the selected city, within the viewport of the map.
-      function search() {
+      function search(type) {
         var search = {
           bounds: map.getBounds(),
-          types: ['lodging']
+          types: [type]
         };
 
         places.nearbySearch(search, function(results, status) {
@@ -88,6 +106,7 @@ var map, places, infoWindow;
           }
         });
       }
+    
 
       function clearMarkers() {
         for (var i = 0; i < markers.length; i++) {
