@@ -13,9 +13,9 @@ function nextImage(){  // created a function called nextImage
      
 if(index < images.length -1){  // Checked to see if the index variable is less than the length of the array
     index++; // incremented index by 1 , Skips 0 index in array, but we loaded that image up on index.html
-    document.getElementById('imagesrc').src = images[index]; // got the element by id and replaced with image from array
-    document.getElementById('place').innerHTML = placeNames[index]; // got the element by id and replaced with place name from array
-    document.getElementById('maintext').innerHTML = textContent[index]; // got the element by id and relaced with textcontent from array
+    document.getElementById('imagesrc').src = images[index]; // got the element by id and replaced with image from array index postion
+    document.getElementById('place').innerHTML = placeNames[index]; // got the element by id and replaced with place name from array index postion
+    document.getElementById('maintext').innerHTML = textContent[index]; // got the element by id and relaced with textcontent from array index position
 } 
 }
 
@@ -23,9 +23,9 @@ if(index < images.length -1){  // Checked to see if the index variable is less t
 function previousImage(){ // created a function called previous image
     if(index > 0){ // checked to see if array index is greater than 0
         index--; // decrement array by 1
-        document.getElementById('imagesrc').src = images[index]; // got the element by id and replaced with image from array
-        document.getElementById('place').innerHTML = placeNames[index]; // got the element by id and replaced with place name from array
-        document.getElementById('maintext').innerHTML = textContent[index]; // got the element by id and relaced with textcontent from array
+        document.getElementById('imagesrc').src = images[index]; // got the element by id and replaced with image from array position
+        document.getElementById('place').innerHTML = placeNames[index]; // got the element by id and replaced with place name from array position
+        document.getElementById('maintext').innerHTML = textContent[index]; // got the element by id and relaced with textcontent from array position
         
     }
 }
