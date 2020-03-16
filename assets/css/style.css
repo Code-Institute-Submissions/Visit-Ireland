@@ -76,6 +76,15 @@
     margin-bottom: 15px;
 }
 
+.places-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3%;
+    width: 25.33%;
+    background: none;
+    border: none;
+}
+
 .p-style{
     text-align: justify;
     margin-bottom: 60px;
@@ -144,7 +153,8 @@
         display: inline-block;
         vertical-align: middle;
         margin: 3%;
-        width: 25.33%;
+        width: 50.33%;
+        height: 70px;
       }
 
       #listing {
