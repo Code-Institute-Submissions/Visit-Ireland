@@ -40,23 +40,31 @@ var map, places, infoWindow;
         autocomplete.addListener('place_changed', onPlaceChanged);
       }
 
+
+      // When Button with below id is clicked, it calls the function associated with it
       document.getElementById("restraunt").addEventListener("click", checkRestraunt);
       document.getElementById("bars").addEventListener("click", checkBars);
       document.getElementById("hotels").addEventListener("click", checkHotels);
 
-      
+      // When function is called it clears markers and results. Declares the Variable type
       function checkRestraunt(){
         clearResults();
         clearMarkers();  
         type = "restaurant";
+        
                     
       }
       
       function checkBars(){
+        clearResults();
+        clearMarkers();
         type = "bar";
+        
       }
       
       function checkHotels(){
+        clearResults();
+        clearMarkers();
         type = "lodging";
       }
 
@@ -74,7 +82,7 @@ var map, places, infoWindow;
         }
       }
        
-      // Search for hotels in the selected city, within the viewport of the map.
+      // Search for hotels,bars,Restraunts in the selected city, within the viewport of the map.
       function search(type) {
         var search = {
           bounds: map.getBounds(),
@@ -96,7 +104,7 @@ var map, places, infoWindow;
                 animation: google.maps.Animation.DROP,
                 icon: markerIcon
               });
-              // If the user clicks a hotel marker, show the details of that hotel
+              // If the user clicks a  marker, show the details of that marker
               // in an info window.
               markers[i].placeResult = results[i];
               google.maps.event.addListener(markers[i], 'click', showInfoWindow);
