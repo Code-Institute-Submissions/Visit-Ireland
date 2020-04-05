@@ -51,6 +51,7 @@ var map, places, infoWindow;
         clearResults();
         clearMarkers();  
         type = "restaurant";
+        search(type);
         
                     
       }
@@ -59,6 +60,7 @@ var map, places, infoWindow;
         clearResults();
         clearMarkers();
         type = "bar";
+        search(type);
         
       }
       
@@ -66,6 +68,7 @@ var map, places, infoWindow;
         clearResults();
         clearMarkers();
         type = "lodging";
+        search(type);
       }
 
     
