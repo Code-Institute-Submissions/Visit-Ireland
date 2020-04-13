@@ -64,9 +64,9 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-12 col-md-6 images-div">
+			<div class="col-sm-12 col-md-6 places-div">
 				<div>
-					<img id="imagesrc" class="place-images w-100" src="assets/images/cave.jpg" alt="Aillwee Caves">
+					<img id="imagesrc" class="places-images w-100" src="assets/images/cave.jpg" alt="Aillwee Caves">
                 </div>
 			</div>
 	        <div class="col-sm-12 col-md-6 places-style">
@@ -93,9 +93,9 @@
 					<p class="p-search">If its a place to Eat, drink or sleep Search below and find the perfect place for you</p>
 				</div>
 				<div>
-					<button id="restraunt" class="places-btn"><img class="places-image" src="assets/images/dish-spoon-knife.png" alt=""></button>
-					<button id="bars"  class="places-btn"><img class="places-image" src="assets/images/glass-drinks.png" alt=""></button>
-					<button id="hotels" class="places-btn"><img class="places-image" src="assets/images/sleep.png" alt=""></button>
+					<button id="restraunt" class="search-btn"><img class="search-image" src="assets/images/dish-spoon-knife.png" alt=""></button>
+					<button id="bars"  class="search-btn"><img class="search-image" src="assets/images/glass-drinks.png" alt=""></button>
+					<button id="hotels" class="search-btn"><img class="search-image" src="assets/images/sleep.png" alt=""></button>
 				</div>
 				<div class="hotel-search">
 					<div id="locationField">
@@ -142,14 +142,14 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
+	<div class="container-fluid form-bgimage">
 		<div class="row">
 			<div class="col-sm-12">
 				<!-- Default form contact -->
 				<!--https://mdbootstrap.com/docs/jquery/forms/basic/ This Form was taking from here and styled and changed code to suit my page-->
-					<form class="text-center border border-light p-5" action="#!">
+					<form class="text-center p-5" action="#!">
 
-						<p class="h4 mb-4 h5-custom">Contact us</p>
+						<p class="h4 mb-4 form-style">Contact us</p>
 
 						<!-- Name -->
 						<input type="text" id="defaultContactFormName" class="form-control mb-4"  placeholder = "Name" name="Name" required>
@@ -157,26 +157,10 @@
 					    <!-- Email -->
 						<input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" required>
 
-						<!-- Subject Amended Options  -->
-							<label>Subject</label>
-						    <select class="browser-default custom-select mb-4">
-                                <option value="" disabled>Choose option</option>
-                                <option value="1" selected>General Information</option>
-                                <option value="2">Price Enquiry</option>
-                                <option value="3">Request a Call Back</option>
-                                <option value="4">Payment Information</option>
-                            </select>
-
 						<!-- Message -->
 						<div class="form-group">
 							<textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" required></textarea>
 			            </div>
-
-						<!-- Copy -->
-						<div class="custom-control custom-checkbox mb-4">
-							<input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-							<label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
-						</div>
 
 					    <!-- Send button -->
 						<button class="btn btn-info btn-block btn-form" type="submit">Send</button>
