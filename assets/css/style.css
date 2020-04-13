@@ -1,4 +1,4 @@
-
+/* Makes max width of page 80% of page on screen 992px and larger*/
 @media (min-width: 992px) { 
     body {
         max-width: 80%;
@@ -44,6 +44,8 @@
     height: 50%;
 }
 
+/* Style for Places div*/
+
 .h2-custom {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -58,11 +60,11 @@
     letter-spacing: 3px;
 }
 
-.images-div{
+.places-div{
     padding: 0px;
 }
 
-.place-images {
+.places-images {
     height: 40vh;
 }
 
@@ -76,14 +78,7 @@
     margin-bottom: 15px;
 }
 
-.places-btn {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 3%;
-    width: 25.33%;
-    background: none;
-    border: none;
-}
+
 
 .p-style{
     text-align: justify;
@@ -105,7 +100,7 @@
     right: 10px;
     bottom: 10px;
     margin-top: 5px;
-     background: none;
+    background: none;
     border: none;
     color: #fff;
 }
@@ -134,6 +129,19 @@
 .p-search {
     font-family: Montserrat, sans-serif;
     letter-spacing: 3px;
+}
+
+.search-image{
+    height: 50px;
+    width: 50px;
+}
+.search-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3%;
+    width: 25.33%;
+    background: none;
+    border: none;
 }
 
 /*---Map Style---*/
@@ -166,7 +174,6 @@
         z-index: 1;
       }
       #map {
-        margin-top: 20px;
         width: 100%;
         height: 400px;
       }
@@ -245,6 +252,26 @@
       .iw_table_icon {
         text-align: right;
       }
+/* Form Styles */
+
+.form-bgimage{
+    background: url('../images/contactus.jpg') no-repeat bottom right fixed;
+    height: 100%; 
+     /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-style {
+    color: #fff;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
 
 /* Footer Custom Styles */
 
