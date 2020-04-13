@@ -9,6 +9,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_Q8TxfGl3LIsWGt3mayv2h");
+        })();
+    </script>
 	<title>Visit Ireland</title>
 </head>
 
@@ -147,7 +155,7 @@
 			<div class="col-sm-12">
 				<!-- Default form contact -->
 				<!--https://mdbootstrap.com/docs/jquery/forms/basic/ This Form was taking from here and styled and changed code to suit my page-->
-					<form class="text-center p-5" action="#!">
+					<form onsubmit="return sendMail(this);" class="text-center p-5" action="#!">
 
 						<p class="h4 mb-4 form-style">Contact us</p>
 
@@ -155,11 +163,11 @@
 						<input type="text" id="defaultContactFormName" class="form-control mb-4"  placeholder = "Name" name="Name" required>
 
 					    <!-- Email -->
-						<input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" required>
+						<input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="emailaddress" required>
 
 						<!-- Message -->
 						<div class="form-group">
-							<textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" required></textarea>
+							<textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="projectsummary" required></textarea>
 			            </div>
 
 					    <!-- Send button -->
@@ -217,6 +225,7 @@
 							async defer></script>
 						<script src="assets/js/main.js"></script>
 						<script src="assets/js/map.js"></script>
+                        <script src="assets/js/email.js"></script>
 </body>
 
 </html>
