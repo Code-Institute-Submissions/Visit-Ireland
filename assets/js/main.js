@@ -3,8 +3,8 @@ var images = ['assets/images/cave.jpg', 'assets/images/skelligmichael.jpg', 'ass
 var placeNames = ['See at Aillwee', 'Star Wars', 'Cliffs of Moher']; // array of place names
 
 var textContent = [`Flying Displays at our Bird of Prey Centre. Visit our Farm Shop on-site and see where we make our very own Award Winning Gouda style Cheese. A 35-minute guided cave tour. A private 1-hour long walk through our Hazel woodland with an experienced falconer to learn the art of falconry`,
-                    `lwts see more of this textlwts see more of this textlwts see more of this text lwts see more of this textlwts see more of this textlwts see more of this text lwts see more of this textlwts see more of this textlwts see more of this textlwts see more of this textlwts see more of extlwts see more of this textlwts see more of `,
-                    `if only the fffffffffff fgga qgqqqg ggqhqh qt444 tyyyy 3tqtqt qt  qtt tqtq  tqtqt  qtyq yqt tq tqt qt qtqyher  tthhr geq e qgqgrgq  qrg qeg gqgqgqg  qg gq ggge  eghes h egew gw werr ger egwrg wgwegw wgewgg wg we ewrgrgr rgwrg erg ergggw erw gwgrwg wegw wg wgwg e gweerw wrgrwwe gwrggr werggwe `];
+                    `Skellig Michael is a rugged, remote island located just off the western coast of Ireland. ... And now, with the lure of seeing where Star Wars: A Force Awakens and The Last Jedi are filmed, visitors are arriving by the hundreds to this island, Contact us below for info about tours`,
+                    `The Cliffs of Moher (/ˈmoʊ(h)ər/; Irish: Aillte an Mhothair) are sea cliffs located at the southwestern edge of the Burren region in County Clare, Ireland. From the cliffs, and from atop the tower, visitors can see the Aran Islands in Galway Bay,the Maumturks and Twelve Pins mountains`];
    
 
 var index = 0; //decalred the variable 0
