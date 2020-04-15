@@ -81,12 +81,20 @@ html {
     margin-bottom: 15px;
 }
 
-
-
 .p-style{
     text-align: justify;
     margin-bottom: 60px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .p-style {
+    text-align: justify;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    }
+ }
+
+
 
 .btn-left{
     position: absolute;
