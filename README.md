@@ -76,7 +76,13 @@ Also to contact the website for more info by email or social media links. You ca
 + This Website was developed using [Gitpod](https://www.gitpod.io/). I commited to Git and Pushed to [Github](https://github.com/)
 using the built in functions available in [Gitpod](https://www.gitpod.io/).
 ### How to Deploy
-
+1. Login into [Github](https://github.com/)
+2. Select [waynecrawley/Visit-Ireland](https://github.com/waynecrawley/Visit-Ireland) from the list of Repositories.
+3. From the list just below the top of the screen, select [Settings ](https://github.com/waynecrawley/Visit-Ireland/settings)
+4. Scroll down to the GitHub Pages Section.
+5. Underneath **Source** click the downarrow beside  **None**  in the Dropdown menu.
+6. Click on the **Masterbranch**
+7. The webiste is now deployed and can be found [here](https://waynecrawley.github.io/Visit-Ireland/).
 ### How to Deploy Locally
 
 ## Credits
