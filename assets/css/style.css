@@ -155,6 +155,14 @@ html {
     border: none;
 }
 
+.search-btn:hover{
+    background-color: green;
+}
+
+.search-btn:active{
+    outline-color: green;
+}
+
 /*---Map Style---*/
 
 /* Always set the map height explicitly to define the size of the div
@@ -282,6 +290,10 @@ html {
     color: #fff;
     background-color: #000;
     border-color: #000;
+}
+
+.btn-info:hover{
+    background-color: green;
 }
 
 /* Footer Custom Styles */
