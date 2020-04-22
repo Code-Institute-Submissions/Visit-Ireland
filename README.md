@@ -25,11 +25,12 @@ Also to contact the website for more info by email or social media links. You ca
 **So that** If i have any queries i can do so without searching through the website
 
 ### Strategy
+ + This project is for the creation of a website for Visit Ireland to help promote the country of ireland, that is visually pleasing and has an ease of use.
 
 ### Scope
-
++ The website should be responsive, contain interactive elements, work on all devices and browsers. The website must consist of tourist sites to visit, help to find places to stay, eat and sleep, a contact form and social media links.
 ### Structure
-
++ The overall structure of the website was that of a single page website, with three main sections. places to discover, search places to stay, eat and sleep and a contact us section. 
 ### Skeleton
 
 #### Wireframes
