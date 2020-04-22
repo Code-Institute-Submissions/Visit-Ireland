@@ -9,20 +9,20 @@ Also to contact the website for more info by email or social media links. You ca
 ### User Stories
 
 **As a** New Visitor 
-**I want** 
-**So that** 
+**I want** the website to be easy to navigate 
+**So that** It’s easy to find Social Media Links
 
-**As a** New Customer  
-**I want**  
-**So that** 
+**As a** New Visitor 
+**I want**  to see some images of tourist sites to visit
+**So that** i can see if i'd be interested in visiting the site
 
-**As a** New Customer  
-**I want**  
-**So that**   
+**As a** New Visitor  
+**I want**  to search for a place to eat,sleep and drink
+**So that**  it's easy for me to decide on a venue.
 
-**As a** Returning Customer  
-**I want** 
-**So that** 
+**As a** Returning Visitor 
+**I want** to be able to contact the company easily 
+**So that** If i have any queries i can do so without searching through the website
 
 ### Strategy
 
