@@ -56,7 +56,18 @@ Also to contact the website for more info by email or social media links. You ca
 + In the furture the client would like me to Implement a store to sell merchandise.
 + In the future the client would like me to implemnt the purchasing of tickets for tourist sites.
 ## Technologies Used
-
++ **Gitpod** - [Gitpod](https://www.gitpod.io/) was the only IDE I used throughout development.
++ **HTML** - This is the Markup Language used to create the main structure of the website.
++ **CSS** - I used CSS to style the visual look of the webpage.
++ **Bootstrap** - [Bootstrap](https://getbootstrap.com/) was used to help make the webpage responsive over different screen sizes.
++ **jQuery** - I used [jQuery](https://jquery.com/) to collapse the Navbar 
++ **Fontawesome** - All icons are taking from [Fontawesome.](https://fontawesome.com/)
++ **Popper.js** - [Popper.js](https://popper.js.org/) is the Javascript required for Navbar      
++ **Git** -  [Git](https://git-scm.com/) was used for version control.
++ **GitHub** - [Github](https://github.com/) was used to host the repository for this project.
++ **Javascript** -   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) This the language used to code the interactive parts of the website.
++ **Googlemaps Api** [GooglemapsApi](https://cloud.google.com/maps-platform/maps/) This is the Api used to help the user seach for different places to sleep,eat and drink.
++ **EmailJS** - [EmailJs](https://www.emailjs.com/) was used get my contact form fully functional.
 ## Testing
 
 ### Known Bugs
