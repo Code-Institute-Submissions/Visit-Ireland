@@ -73,7 +73,8 @@ Also to contact the website for more info by email or social media links. You ca
 ### Known Bugs
 
 ## Deployment
-
++ This Website was developed using [Gitpod](https://www.gitpod.io/). I commited to Git and Pushed to [Github](https://github.com/)
+using the built in functions available in [Gitpod](https://www.gitpod.io/).
 ### How to Deploy
 
 ### How to Deploy Locally
