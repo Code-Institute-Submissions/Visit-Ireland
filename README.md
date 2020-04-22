@@ -1,6 +1,9 @@
 # Visit-Ireland
 
 ### Introduction
+This Website was built for the client Visit-Ireland. The purpose of this website was to help promote the country of Ireland and help to guide tourists on places to see.
+The goal was to make a single page website where visitors can see popular tourists sites to visit, help tourists to find places to stay, eat and drink at ease
+Also to contact the website for more info by email or social media links. You can view the full site here hosted on [Github](https://waynecrawley.github.io/Visit-Ireland/).
 
 ## UX
 ### User Stories
