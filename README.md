@@ -84,7 +84,14 @@ using the built in functions available in [Gitpod](https://www.gitpod.io/).
 6. Click on the **Masterbranch**
 7. The webiste is now deployed and can be found [here](https://waynecrawley.github.io/Visit-Ireland/).
 ### How to Deploy Locally
-
+1. Login into [Github](https://github.com/)
+2. Select [waynecrawley/Visit-Ireland](https://github.com/waynecrawley/Visit-Ireland) from the list of Repositories.
+3. Under the Repository name, click Clone or Download.
+4. Copy the Clone URL.
+5. Open your Terminal.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type git clone, and then paste the URL you copied in Step 4.
+8. Press Enter. Your local clone will be created.
 ## Credits
 ### Content
 
