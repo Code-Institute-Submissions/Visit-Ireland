@@ -40,9 +40,17 @@ Also to contact the website for more info by email or social media links. You ca
 
 ### Surface
 
++ A Mostly black and white colour theme was used for this website, which showcases the classic professional look. A pop of colour was added through the use of colour images and touch of green on link backgrounds.
+
+
 # FEATURES
 ### Existing Features
-
++ **Navbar** - A Navbar is available with links that smooth scrolls to all the important sections on the website.
+  * On Mobile these links are hidden in a dropdown menu for better functionality.
++ **Javascript Carousel** - A Carousel that cycles through information,images of tourist hotspots with the uses of next and previous button. 
++ **Search Feature** - A Google Maps places Api that helps the user search for places to eat, sleep and drink in  location chosen by them.
++ **Contact Us** - A form for the customer to contact the client with any questions they may have.
++ **Social Media Links** - Social media links are available in the footer section of the website. This is an alternative method for Visitor to contact the client.
 ### Features Left to Implement
 
 ## Technologies Used
