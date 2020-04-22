@@ -52,7 +52,9 @@ Also to contact the website for more info by email or social media links. You ca
 + **Contact Us** - A form for the customer to contact the client with any questions they may have.
 + **Social Media Links** - Social media links are available in the footer section of the website. This is an alternative method for Visitor to contact the client.
 ### Features Left to Implement
-
++ In the future the client would like me to Implement a section to hire a car.
++ In the furture the client would like me to Implement a store to sell merchandise.
++ In the future the client would like me to implemnt the purchasing of tickets for tourist sites.
 ## Technologies Used
 
 ## Testing
