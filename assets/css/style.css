@@ -28,7 +28,7 @@ html {
 
 .navbar-custom .navbar-nav .nav-link:hover {
     color: #fff;
-    background-color: green;
+    background-color:#008000;
 }
 
 /* Styled carousel images */
@@ -117,11 +117,11 @@ html {
 }
 
 .btn-left:hover{
-    background-color: green;
+    background-color: #008000;
 }
 
 .btn-right:hover {
-    background-color: green;
+    background-color:#008000;
 }
 
 /* Styles for Search Div*/
