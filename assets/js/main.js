@@ -3,7 +3,7 @@ var images = ['assets/images/cave.jpg', 'assets/images/skelligmichael.jpg', 'ass
 var placeNames = ['See at Aillwee', 'Star Wars', 'Cliffs of Moher']; // array of place names
 
 var textContent = [`Flying Displays at our Bird of Prey Centre. Visit our Farm Shop on-site and see where we make our very own Award Winning Gouda style Cheese. A 35-minute guided cave tour. A private 1-hour long walk through our Hazel woodland with an experienced falconer to learn the art of falconry`,
-                    `Skellig Michael is a rugged, remote island located just off the western coast of Ireland. ... And now, with the lure of seeing where Star Wars: A Force Awakens and The Last Jedi are filmed, visitors are arriving by the hundreds to this island, Contact us below for info about tours`,
+                    `Skellig Michael is a rugged, remote island located just off the western coast of Ireland. ... And now, with the lure of seeing where Star Wars: A Force Awakens and The Last Jedi are filmed, visitors are arriving by the hundreds to this island, Contact us below for info about tours and more.`,
                     `The Cliffs of Moher (/ˈmoʊ(h)ər/; Irish: Aillte an Mhothair) are sea cliffs located at the southwestern edge of the Burren region in County Clare, Ireland. From the cliffs, and from atop the tower, visitors can see the Aran Islands in Galway Bay,the Maumturks and Twelve Pins mountains`];
    
 
@@ -29,3 +29,11 @@ function previousImage(){ // created a function called previous image
         
     }
 }
+
+// This code was not written by me and modified slightly to fit my needs, it was found here https://stackoverflow.com/questions/41476916/jquery-make-pressed-button-active-and-all-other-buttons-inactive
+$(document).ready(function(){
+  $('.search-btn').click(function(){
+    $('.search-btn').removeClass('active').addClass('inactive');
+     $(this).removeClass('inactive').addClass('active');
+    });
+})
