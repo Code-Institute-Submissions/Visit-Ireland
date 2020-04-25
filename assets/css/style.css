@@ -277,7 +277,7 @@ html {
 .form-bgimage{
     background: url('../images/contactus.jpg') no-repeat bottom right fixed;
     height: 100%; 
-     /* Center and scale the image nicely */
+     /* Center and scale the image  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -295,6 +295,12 @@ html {
 
 .btn-info:hover{
     background-color: green;
+}
+
+@media only screen and (min-width: 767px) {
+form {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 /* Footer Custom Styles */
