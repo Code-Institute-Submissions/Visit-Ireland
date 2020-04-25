@@ -190,7 +190,6 @@ html {
         display: flex;
         left: 0;
         position: absolute;
-        top: 100;
         width: 100%;
         z-index: 1;
       }
@@ -255,7 +254,7 @@ html {
       #rating {
         font-size: 13px;
         font-family: Arial Unicode MS;
-      }
+        }
 
       /* changed padding to info content */
       #info-content{
