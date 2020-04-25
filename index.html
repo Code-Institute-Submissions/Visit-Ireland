@@ -101,9 +101,9 @@
 					<p class="p-search">If its a place to eat, drink or sleep. Type location  below and click on the icon and we will find the perfect place for you.</p>
 				</div>
 				<div>
-					<button id="restraunt" class="search-btn"><img class="search-image" src="assets/images/dish-spoon-knife.png" alt=""></button>
-					<button id="bars"  class="search-btn"><img class="search-image" src="assets/images/glass-drinks.png" alt=""></button>
-					<button id="hotels" class="search-btn"><img class="search-image" src="assets/images/sleep.png" alt=""></button>
+					<button id="restraunt" class="search-btn active"><img class="search-image" src="assets/images/dish-spoon-knife.png" alt=""></button>
+					<button id="bars"  class="search-btn inactive"><img class="search-image" src="assets/images/glass-drinks.png" alt=""></button>
+					<button id="hotels" class="search-btn inactive"><img class="search-image" src="assets/images/sleep.png" alt=""></button>
 				</div>
 				<div class="hotel-search">
 					<div id="locationField">
@@ -155,7 +155,7 @@
 			<div class="col-sm-12">
 				<!-- Default form contact -->
 				<!--https://mdbootstrap.com/docs/jquery/forms/basic/ This Form was taking from here and styled and changed code to suit my page-->
-					<form onsubmit="return sendMail(this);" class="text-center p-5" action="#!">
+					<form onsubmit="return sendMail(this);" class="text-center p-5" action="#!" method="get" id="main-form">
 
 						<p class="h4 mb-4 form-style">Contact us</p>
 
@@ -177,6 +177,8 @@
 			</div>
 		</div>
 	</div>
+
+    
 
     <!--Footer Section-->
 	<footer class="container-fluid footer-custom">
