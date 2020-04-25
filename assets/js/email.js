@@ -7,6 +7,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            document.getElementById("main-form").reset(); // Used Form reset() Method to clear form after we get successful response
         },
         function(error) {
             console.log("FAILED", error);
