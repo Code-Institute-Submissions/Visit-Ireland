@@ -125,7 +125,7 @@ using the built in functions available in [Gitpod](https://www.gitpod.io/).
 ## Credits
 ### Content
 + The code to my form was taking from here [Mdbootstrap.com](https://mdbootstrap.com/docs/jquery/forms/basic/) and modified to suit my needs.
-+ Code for displaying Active Buttons was not written by me and modified slightly to fit my needs, it was found here[stackoverflow.com](https://stackoverflow.com/questions/41476916/jquery-make-pressed-button-active-and-all-other-buttons-inactive)
++ Code for displaying Active Buttons was not written by me and modified slightly to fit my needs, it was found here [stackoverflow.com](https://stackoverflow.com/questions/41476916/jquery-make-pressed-button-active-and-all-other-buttons-inactive)
 + Text on the images for Cliffs of Moher and Star Wars was extracted from Wiki.
 + Google maps places Api modified to work the way i require.
 ### Media
