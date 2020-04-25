@@ -123,7 +123,16 @@ using the built in functions available in [Gitpod](https://www.gitpod.io/).
 8. Press Enter. Your local clone will be created.
 ## Credits
 ### Content
-
++ The code to my form was taking from here [Mdbootstrap.com](https://mdbootstrap.com/docs/jquery/forms/basic/) and modified to suit my needs.
++ Code for displaying Active Buttons was not written by me and modified slightly to fit my needs, it was found here[stackoverflow.com](https://stackoverflow.com/questions/41476916/jquery-make-pressed-button-active-and-all-other-buttons-inactive)
++ Text on the images for Cliffs of Moher and Star Wars was extracted from Wiki.
 ### Media
-
++ Star wars and cliffs of Moher image was found on [Upslash.com](https://unsplash.com/)
++ Aillwee Caves Image was proivided for use to me on my website by Aillwee Caves
++ Shamrock Png was designed by a friend for my use without credit required.
 ### Acknowledgements
+
++ I would like to thank my Mentor who has been a fantastic guidence for me.
++ Tutor support when ever i reached out were fantastic.
++ I would just like to thank all my fellow Code Institute students on Slack, who have been a great
+help along the way.
