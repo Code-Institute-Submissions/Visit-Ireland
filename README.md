@@ -1,5 +1,5 @@
 # Visit-Ireland
-
+![](https://github.com/waynecrawley/Visit-Ireland/blob/master/assets/images/fourscreens.jpg)
 ### Introduction
 This Website was built for the fictional client Visit-Ireland. The purpose of this website was to help promote the country of Ireland and help to guide tourists on places to see.
 The goal was to make a  website where visitors can see popular tourists sites to visit, help tourists to find places to stay, eat and drink at ease.
