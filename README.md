@@ -1,11 +1,12 @@
 # Visit-Ireland
 
 ### Introduction
-This Website was built for the client Visit-Ireland. The purpose of this website was to help promote the country of Ireland and help to guide tourists on places to see.
-The goal was to make a single page website where visitors can see popular tourists sites to visit, help tourists to find places to stay, eat and drink at ease
+This Website was built for the fictional client Visit-Ireland. The purpose of this website was to help promote the country of Ireland and help to guide tourists on places to see.
+The goal was to make a  website where visitors can see popular tourists sites to visit, help tourists to find places to stay, eat and drink at ease.
 Also to contact the website for more info by email or social media links. You can view the full site here hosted on [Github](https://waynecrawley.github.io/Visit-Ireland/).
 
 ## UX
+The website was built with a mobile first approach. The client wanted a single page website that was interactive and easy to navigate.
 ### User Stories
 
 **As a** New Visitor  
@@ -60,7 +61,7 @@ Also to contact the website for more info by email or social media links. You ca
 + **HTML** - This is the Markup Language used to create the main structure of the website.
 + **CSS** - I used CSS to style the visual look of the webpage.
 + **Bootstrap** - [Bootstrap](https://getbootstrap.com/) was used to help make the webpage responsive over different screen sizes.
-+ **jQuery** - I used [jQuery](https://jquery.com/) to collapse the Navbar 
++ **jQuery** - I used [jQuery](https://jquery.com/) to collapse the Navbar and show active buttons on google api search 
 + **Fontawesome** - All icons are taking from [Fontawesome.](https://fontawesome.com/)
 + **Popper.js** - [Popper.js](https://popper.js.org/) is the Javascript required for Navbar      
 + **Git** -  [Git](https://git-scm.com/) was used for version control.
@@ -68,9 +69,37 @@ Also to contact the website for more info by email or social media links. You ca
 + **Javascript** -   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) This the language used to code the interactive parts of the website.
 + **Googlemaps Api** [GooglemapsApi](https://cloud.google.com/maps-platform/maps/) This is the Api used to help the user seach for different places to sleep,eat and drink.
 + **EmailJS** - [EmailJs](https://www.emailjs.com/) was used get my contact form fully functional.
-## Testing
 
+## Testing
++ The first thing I did was , worked through my user stories to make sure my website reached all the requirements of my user stories, before moving on to the more technical testing.
++ I ran the HTML for all pages through [W3C HTML Markup Validation](https://validator.w3.org/) by direct input. - **Working as intended**
++ I ran the CSS through [W3C CSS Validation Service](http://www.css-validator.org/) by direct input. - **Working as intended**
++ i used [JSHint](https://jshint.com/) to test my javascript for errors.
++ All links tested manually - **Working as intended**
++ All buttons tested manually - **Working as intended**
++ Tested different screen sizes using Google Developer Tools.
+  * Pixel 2 - **Working as intended**
+  * iPhone 6 - **Working as intended**
+  * iPhone 7 - **Working as intended**
+  * iPhone 8 - **Working as intended**
+  * iPhone X - **Working as intended**
+  * iPad - **Working as intended**
+  * iPad Pro  - **Working as intended**
+  * Laptop with HiDPI screen - **See Known Bugs**
+
++ I got friends to test out the live site on Github and give me Feedback on any issues. - **See Known Bugs**
++ I used my Huwawei P20 Android Phone to test website - **Working as intended**
++ I posted my webpage for peer review and made changes based on feedback
+  * Added background colour change on active buttons in search places for google maps.
+  * Added smoothscroll to the links in Navbar.
++ The website was tested on different browsers such as Google Chrome, Safari, Internet Explorer and Mozilla Firefox.
+
+### Issues fixed 
++ **JavaScript Carousel** Skips 0 index in array, so we were missing a image on page load, but we loaded that image up on index.html
++ **GooglemapsApi** I had an issue on page load, when the user clicked one of  search button Icons it loaded all the place types. This was fixed setting the variable type to restraunt on page laod and setting the button to show its active.
++ **EmailJS** I had an issue of the form not clearing after submission. This is eventually fixed by finding the reset Method on W3 Schools.
 ### Known Bugs
++ On Desktop view, theirs to much whitespace between the Shamrock image and the div below.
 
 ## Deployment
 + This Website was developed using [Gitpod](https://www.gitpod.io/). I commited to Git and Pushed to [Github](https://github.com/)
