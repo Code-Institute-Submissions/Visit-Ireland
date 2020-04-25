@@ -4,11 +4,11 @@ var map, places, infoWindow;
       var countryRestrict = {'country': 'ie'};
       var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
       var hostnameRegexp = new RegExp('^https?://.+?/');
-      var type = "";
-
+      var type = "restaurant"; //On page load type = restraunt
+      var place = null;        // On page load pace === null
       var countries = {
          'ie': {
-            center: {lat: 53.3, lng: -6.2},
+            center: {lat: 53.3, lng: -6.2},  // centered map on Ireland
         zoom: 6
          }
       };
@@ -22,7 +22,6 @@ var map, places, infoWindow;
           zoomControl: false,
           streetViewControl: false
         });
-
         infoWindow = new google.maps.InfoWindow({
           content: document.getElementById('info-content')
         });
@@ -48,12 +47,12 @@ var map, places, infoWindow;
 
       // When function is called it clears markers and results. Declares the Variable type
       function checkRestraunt(){
+        
         clearResults();
         clearMarkers();  
         type = "restaurant";
         search(type);
-        
-                    
+                     
       }
       
       function checkBars(){
@@ -62,6 +61,7 @@ var map, places, infoWindow;
         type = "bar";
         search(type);
         
+        
       }
       
       function checkHotels(){
@@ -69,13 +69,14 @@ var map, places, infoWindow;
         clearMarkers();
         type = "lodging";
         search(type);
+        
       }
 
     
       // When the user selects a city, get the place details for the city and
       // zoom the map in on the city.
       function onPlaceChanged() {
-        var place = autocomplete.getPlace();
+        place = autocomplete.getPlace();
         if (place.geometry) {
           map.panTo(place.geometry.location);
           map.setZoom(15);
@@ -87,6 +88,9 @@ var map, places, infoWindow;
        
       // Search for hotels,bars,Restraunts in the selected city, within the viewport of the map.
       function search(type) {
+        if(place === null){   // if place is === null search won't happen
+            return
+        }
         var search = {
           bounds: map.getBounds(),
           types: [type]
@@ -96,7 +100,7 @@ var map, places, infoWindow;
           if (status === google.maps.places.PlacesServiceStatus.OK) {
             clearResults();
             clearMarkers();
-            // Create a marker for each hotel found, and
+            // Create a marker for each hotel, restraunt , bar found, and
             // assign a letter of the alphabetic to each marker icon.
             for (var i = 0; i < results.length; i++) {
               var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
@@ -183,7 +187,7 @@ var map, places, infoWindow;
         }
       }
 
-      // Get the place details for a hotel. Show the information in an info window,
+      // Get the place details for a hotel,bar and restraunt. Show the information in an info window,
       // anchored on the marker for the hotel that the user selected.
       function showInfoWindow() {
         var marker = this;
@@ -213,7 +217,7 @@ var map, places, infoWindow;
           document.getElementById('iw-phone-row').style.display = 'none';
         }
 
-        // Assign a five-star rating to the hotel, using a black star ('&#10029;')
+        // Assign a five-star rating to the hotel,bar and restraunt using a black star ('&#10029;')
         // to indicate the rating the hotel has earned, and a white star ('&#10025;')
         // for the rating points not achieved.
         if (place.rating) {
